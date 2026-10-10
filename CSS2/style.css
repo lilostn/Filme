@@ -1,7 +1,10 @@
 *{
     box-sizing: border-box;
 }
-
+html, body{
+    width: 100%;
+    margin: 0;
+}
 body{
     /* configurações gerais do body */
     font-family: Arial, sans-serif;
@@ -12,8 +15,12 @@ body{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    overflow-x: hidden;
 }
 
+img {
+    max-width: 100%;
+}
         header{
             /* configurações do header */
             background-color: rgba(15, 13, 13, 0.85);
