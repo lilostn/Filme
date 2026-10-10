@@ -1,10 +1,6 @@
 *{
     box-sizing: border-box;
 }
-html, body{
-    width: 100%;
-    margin: 0;
-}
 body{
     /* configurações gerais do body */
     font-family: Arial, sans-serif;
@@ -15,7 +11,6 @@ body{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    overflow-x: hidden;
 }
 
 img {
