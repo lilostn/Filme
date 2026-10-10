@@ -136,6 +136,8 @@ h2{
     border-radius: 15px;
     text-align: center;
     box-shadow: 0 6px 30px rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
     
 }
 
@@ -152,6 +154,9 @@ h2{
 
 .filme:hover{
     transform: scale(1.05);
+}
+.filme a{
+    margin-top: auto; /*para deixar os "saiba mais" dos cards organizados, isso junto com o display: flex no .filme e flex-direction: column*/
 }
 
 
