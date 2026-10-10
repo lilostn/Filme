@@ -25,8 +25,9 @@ body{
             /* configurações do título do caabeçalho */
             margin: 0;
             color: #FFD43B;
-            font-size: 60px;
+            font-size: 80px;
             margin-top: 30px;
+            text-shadow: 2px 2px 8px rgba(247, 247, 113, 0.89);
             
 
         }
@@ -38,10 +39,11 @@ body{
             font-size: 16px;
             padding: 5px;
             text-align: left;
+        
         }
 
         nav{
-            margin-top: 70px;
+            margin-top: 150px;
            
         }
 
@@ -140,6 +142,7 @@ h2{
 .filme h3{
     color: #FFD43B;
     margin-bottom: 20px;
+    text-shadow: 1px 1px 3px rgba(247, 247, 113, 0.719);
 }
 
 .filme p{
