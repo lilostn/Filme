@@ -1,0 +1,25 @@
+.poster{    
+    /* configurações das imagens */
+
+    width: 180px;
+    height: 270px;
+    object-fit: contain;
+    border-radius: 15px;
+}
+.poster2{    
+    /* configurações das imagens
+    so que pra as 2 imagens que não couberam no contain, ai terei q colocar em cover mesmo, mas não vou deixar todas pq ao q parece ela perde qualidade de imagem */
+
+    width: 180px;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.filmes {
+    /* organização geral do catálogo */
+}
+
+.filme {
+    /* aparência de cada card */
+}
