@@ -1,6 +1,4 @@
-*{
-    box-sizing: border-box;
-}
+
 body{
     /* configurações gerais do body */
     font-family: Arial, sans-serif;
@@ -13,9 +11,6 @@ body{
     background-attachment: fixed;
 }
 
-img {
-    max-width: 100%;
-}
         header{
             /* configurações do header */
             background-color: rgba(15, 13, 13, 0.85);
