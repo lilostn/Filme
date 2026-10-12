@@ -2,7 +2,7 @@
 body{
     /* configurações gerais do body */
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin: auto;
     background-color: #4A0D12;
     color: #FFF3D6;
     background-image: url("assets/background2.png");
@@ -24,7 +24,7 @@ body{
 
         header h1{
             /* configurações do título do caabeçalho */
-            margin: 0;
+            margin: auto;
             color: #FFD43B;
             font-size: 80px;
             margin-top: 30px;
@@ -69,6 +69,7 @@ body{
             padding: 0; /* pra tirar o padding da lista */
             margin: 0; /* pra tirar a margem da lista */
             justify-content: center; /* pra centralizar os links */
+            flex-wrap: wrap;
           
         }
 
@@ -139,6 +140,7 @@ h2{
     
 }
 
+
 .filme {
     /* aparência de cada card */
     margin:0;
@@ -170,18 +172,12 @@ h2{
 }
 .filme a{
     margin-top: auto; /*para deixar os "saiba mais" dos cards organizados, isso junto com o display: flex no .filme e flex-direction: column*/
-    color: #FFD43B;
-
+    color: #FFD43B; 
 }
-
 .filme a:hover{
     color: #FFF3D6 ;
     text-shadow: 0 0.5px 4px rgb(248, 244, 31);
 }
-
-
-
-
 
 
 .poster{    
