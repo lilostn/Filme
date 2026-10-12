@@ -52,11 +52,14 @@ body{
             /* configurações da barra de navegação/ menu*/
             color: #FFF3D6;
             text-decoration: none;
-        
+            transition: transform 0.2s ease;
         }
         a:hover{
             /* configurações da barra de navegação/ menu quando o mouse passa por cima */
             color: #FFD43B;
+            text-shadow: 0 0 3px rgb(248, 248, 247);
+            display: inline-block;
+            transform: scale(1.1);
             
         }
         nav ul{
@@ -104,6 +107,13 @@ h2{
 #destaque-semana h3{
     color: #FFD43B;
     margin-bottom: 20px;
+}
+#destaque-semana a{
+    color: #FFD43B;
+}
+#destaque-semana a:hover{
+    color: #FFF3D6;
+    text-shadow: 0 0 4px rgb(248, 244, 31);
 }
 
 #catalogo h2{
