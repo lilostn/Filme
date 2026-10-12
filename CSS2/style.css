@@ -158,6 +158,13 @@ h2{
 }
 .filme a{
     margin-top: auto; /*para deixar os "saiba mais" dos cards organizados, isso junto com o display: flex no .filme e flex-direction: column*/
+    color: #FFD43B;
+
+}
+
+.filme a:hover{
+    color: #FFF3D6 ;
+    text-shadow: 0 0.5px 4px rgb(248, 244, 31);
 }
 
 
